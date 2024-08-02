@@ -8,7 +8,7 @@ const Button = ({ className, href, onClick, children, px, white }) => {
         </button>
     )
 
-    return renderButton
+    return renderButton();
 }
 
 export default Button
